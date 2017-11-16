@@ -1,0 +1,1 @@
+start browser-sync start --server --directory --files="**/*" --cors=true
