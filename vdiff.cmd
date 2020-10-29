@@ -1,5 +1,3 @@
 @echo off
 
-set ARAXIS=D:\tools\araxis\Compare.exe
-
-call %ARAXIS% %*
+node  %~dp0\vdiff.js %*
